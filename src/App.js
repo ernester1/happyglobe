@@ -11,7 +11,6 @@ import Postajob from './components/Postajob';
 import Apply from './components/Apply';
 import Chatbot from './components/Chatbot';
 import Homepage from './components/Homepage';
-import workFromHomeImage from '/home/user/Desktop/happyglobe/src/components/assets/images/work-from-home.jpg'; // Make sure this path is correct
 import Profile from './components/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -23,7 +22,7 @@ function App() {
           <h1>
             <span className='imgspan'>
               <img 
-                src={workFromHomeImage} 
+                src='src/components/assets/images/work-from-home.jpg' 
                 alt="Happy Globe logo" 
                 className='headerimg' 
               />

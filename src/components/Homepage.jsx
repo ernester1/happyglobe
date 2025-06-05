@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaSearch, FaBriefcase, FaHandshake, FaGlobeAmericas, FaSmile } from 'react-icons/fa';
-import workFromHomeImage from '/home/user/Desktop/happyglobe/src/components/assets/images/work-from-home.jpg';
 import Carousel from './Carousel';
 
 const Homepage = () => {
@@ -45,13 +44,7 @@ const Homepage = () => {
             </button>
           </div>
         </div>
-        <span className='imgspan'>
-          <img 
-            src={workFromHomeImage} 
-            alt="Happy Globe logo" 
-            className='headerimg' 
-          />
-        </span>
+        
       </section>
 
       <section className="value-section">

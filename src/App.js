@@ -20,14 +20,8 @@ function App() {
       <div className="App container-fluid">
         <header className="App-header">
           <h1>
-            <span className='imgspan'>
-              <img 
-                src='src/components/assets/images/work-from-home.jpg' 
-                alt="Happy Globe logo" 
-                className='headerimg' 
-              />
-            </span>
-            HAPPY GLOBE 🌍 | Living better days of job satisfaction.
+            
+            HAPPY GLOBE 🌍
           </h1>
         </header>
 
